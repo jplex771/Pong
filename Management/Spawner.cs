@@ -46,7 +46,7 @@ namespace Pong.Management
         private async Task respawnBall(Direction direction)
         {
             vel = rb.linearVelocity;
-            Debug.Log("velocity = " + vel);
+            //Debug.Log("velocity = " + vel);
 
             // Slight Delay
             await Task.Delay(250);
