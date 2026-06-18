@@ -7,7 +7,7 @@ namespace Pong.Models
     public class RightPong : MonoBehaviour
     {
         public Vector2 movement = new Vector2(0, 0);
-        public float scale = 3f;
+        public float scale = 5f;
 
         private bool isMoving = false;
         private PlayerInput playerInput;

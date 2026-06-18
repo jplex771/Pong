@@ -51,13 +51,13 @@ namespace Pong.Management
             {
                 leftScore.text = (int.Parse(leftScore.text) + 1).ToString();
                 OnScored?.Invoke(left);
-                Debug.Log("Left Score Bumped");
+                //Debug.Log("Left Score Bumped");
             }
             else if (direction == left)
             {
                 rightScore.text = (int.Parse(rightScore.text) + 1).ToString();
                 OnScored?.Invoke(right);
-                Debug.Log("Right Score Bumped");
+                //Debug.Log("Right Score Bumped");
             }
         }
     }

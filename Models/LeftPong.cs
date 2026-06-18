@@ -6,7 +6,7 @@ namespace Pong.Models
 
     public class LeftPong : MonoBehaviour
     {
-        public float scale = 3f;
+        public float scale = 5f;
         public Vector2 movement = new Vector2(0, 0);
 
         private bool isMoving = false;

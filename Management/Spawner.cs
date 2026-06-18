@@ -55,20 +55,6 @@ namespace Pong.Management
             rb.transform.position = new Vector3(0, 0, 0);
             vel.x *= -1;
             rb.linearVelocity = vel;
-
-            /*
-                    if (direction == Direction.Left)
-                    {
-                        // Set Velocity
-                        Vector2 vel = new Vector2(lSpeed, 0);
-                        rb.linearVelocity = vel;
-                    }
-                    else if (direction == Direction.Right)
-                    {
-                        Vector2 vel = new Vector2(rSpeed, 0);
-                        rb.linearVelocity = vel;
-                    }
-                    */
         }
 
         // Event Subscriptions
